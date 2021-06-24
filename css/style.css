@@ -79,7 +79,7 @@ header #search input {
 }
 
 main #principal .swiper-container {
-  height: 500px;
+  height: 600px;
 }
 
 main #principal .swiper-container .swiper-slide img {
@@ -110,7 +110,7 @@ footer #logo-Inf {
 }
 
 footer #logo-Inf img {
-  height: 150px;
+  height: 100px;
   width: auto;
 }
 
@@ -210,6 +210,7 @@ footer #container-footer #menu-footer #form form label {
 footer #container-footer #menu-footer #form form input, footer #container-footer #menu-footer #form form select {
   width: 50%;
   border-radius: 4px;
+  font-size: 12px;
 }
 
 footer #container-footer #menu-footer #form form input:last-of-type, footer #container-footer #menu-footer #form form select:last-of-type {

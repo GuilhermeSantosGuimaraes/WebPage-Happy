@@ -66,10 +66,8 @@ header{
 
 main{
     #principal{
-        
-
         .swiper-container{
-            height: 500px;
+            height: 600px;
             .swiper-slide{
                 img{
                     display: block;
@@ -98,7 +96,7 @@ footer{
         align-items: center;
     
         img{
-            height: 150px;
+            height: 100px;
             width: auto; 
         }
     
@@ -179,6 +177,7 @@ footer{
                     input, select{
                         width: 50%;
                         border-radius: 4px;
+                        font-size: 12px;
 
                         &:last-of-type{
                             width: 25%;
