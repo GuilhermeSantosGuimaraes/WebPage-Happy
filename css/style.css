@@ -90,11 +90,49 @@ main #principal .swiper-container .swiper-slide img {
      object-fit: cover;
 }
 
-main #principal article {
-  font-size: 20px;
-  line-height: 20px;
-  margin-top: 10px;
-  text-align: justify;
+main #metodologia {
+  text-align: center;
+  background-color: #8ee3ef;
+}
+
+main #metodologia h2 {
+  padding: 20px;
+  font-size: 40px;
+  color: #473080;
+}
+
+main #metodologia #metodologia-bloco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #metodologia #metodologia-bloco .blocos {
+  width: 20%;
+}
+
+main #metodologia #metodologia-bloco .blocos .titulo {
+  background-color: #473080;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 150px;
+}
+
+main #metodologia #metodologia-bloco .blocos .titulo img {
+  width: 80px;
+  height: auto;
+}
+
+main #metodologia #metodologia-bloco .blocos .titulo h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+main #metodologia #metodologia-bloco .blocos .texto {
+  background-color: #fff;
 }
 
 footer #logo-Inf {

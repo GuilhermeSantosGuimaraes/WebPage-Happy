@@ -77,12 +77,47 @@ main{
                 }
             }
         }
+    }
 
-        article{
-            font-size: 20px;
-            line-height: 20px;
-            margin-top: 10px;
-            text-align: justify;
+    #metodologia{
+        text-align: center;
+        background-color: #8ee3ef;
+
+        h2{
+            padding: 20px;
+            font-size: 40px;
+            color: #473080;
+        }
+
+        #metodologia-bloco{
+            display: flex;
+            justify-content: space-around;
+
+            .blocos{
+                width: 20%;
+
+                .titulo{
+                    background-color: #473080;
+                    text-align: center;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    height: 150px;
+    
+                    img{
+                        width: 80px;
+                        height: auto;
+                    }
+
+                    h3{
+                        color: #fff;
+                        font-size: 30px;
+                    }
+                }
+
+                .texto{
+                    background-color: #fff;
+                }
+            }
         }
     }
 
@@ -172,6 +207,7 @@ footer{
                         display: flex;
                         flex-direction: row;
                         color: #fff;
+                        
                     }
 
                     input, select{
