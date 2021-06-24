@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Benne', serif;
+    color: black;
+}
+
+body{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+header{
+    height: 100px;
+    background-color: #62a87c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        height: 100px;
+        width: auto;
+    }
+
+    nav{
+        width: 40%;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+
+            li{
+                a{
+                    text-decoration: none;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: #fff;
+
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    #search{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 15%;
+        ion-icon{
+            color: #fff;
+            font-size: 30px;
+        }
+        
+        input{
+            border-radius: 4px;
+        }
+    }
+}  
+
+main{
+    #principal{
+        
+
+        .swiper-container{
+            height: 500px;
+            .swiper-slide{
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        article{
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 10px;
+            text-align: justify;
+        }
+    }
+
+}
+
+
+footer{
+    #logo-Inf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        img{
+            height: 150px;
+            width: auto; 
+        }
+    
+        hr{
+            width: 100%;
+            border: 1px solid;
+        }
+    }
+    
+    #container-footer{
+        padding: 20px;
+        width: 100%;
+
+        h2{
+            font-size: 30px;
+        }
+
+        #menu-footer{
+            display: flex;
+            justify-content: flex-start;
+
+            #menu-links{
+                display: flex;
+                width: 60%;
+                align-items: center;
+
+                #email{
+                    font-size: 20px;
+                    padding: 0 20px;
+
+                    ion-icon{
+                        font-size: 40px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    h3, span{
+                        margin-left: 15px;
+                    }
+
+                    .link{
+                        margin-left: 15px;
+                        display: flex;
+    
+                        ion-icon{
+                            font-size: 20px;
+                            color: #62a87c;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                
+            }
+
+            #form{
+                background-color:#62a87c;
+                border-radius: 4px;
+                width: 35%;
+                text-align: center;
+
+                h3{
+                    color: #fff;
+                }
+
+                form{
+                    display: block;
+                    padding: 10px;
+                    text-align: justify;
+
+
+                    label{
+                        display: flex;
+                        flex-direction: row;
+                        color: #fff;
+                    }
+
+                    input, select{
+                        width: 50%;
+                        border-radius: 4px;
+
+                        &:last-of-type{
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+    p{
+        text-align: center;
+        font-size: 10px;
+    }
+}

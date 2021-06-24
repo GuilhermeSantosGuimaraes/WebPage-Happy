@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Happy Code - POA</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo da empresa">
+        <nav>
+            <ul>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+            </ul>
+        </nav>
+        <div id="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="search" name="pesquisa" id="pesquisa">
+        </div>
+    </header>
+
+    <main>
+        <section id="principal">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/Banner/banner1.png" alt="imagem do banner"></div>
+                  <div class="swiper-slide"><img src="img/Banner/banner2.png" alt="imagem do banner"></div>
+                  <div class="swiper-slide"><img src="img/Banner/banner3.png" alt="imagem do banner"></div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+              </div>     
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ratione adipisci veritatis sunt reprehenderit, quos corporis vitae, 
+                dolores fuga culpa voluptates vero velit magnam autem tempore maiores. Corrupti, cupiditate dolores.
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div id="logo-Inf">
+            <hr>
+            <img src="img/logo.png" alt="logo da pagina">
+            <hr>
+        </div>
+        <div id="container-footer">
+            <h2>Conheça a nossa escola!</h2>
+            <div id="menu-footer">
+                <div id="menu-links">
+                    <div id="email">
+                        <h3>Contato</h3>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>happycode@happycode.com.br</span>
+                        <div class="link">
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="form">
+                    <h3>Agende sua aula grátis!</h3>
+                    <h4>Preencha os campos e venha conhecer nossa escola</h4>
+                    <form action="cadastro.php">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name">
+                        <label for="cel">Telefone</label>
+                        <input type="tel" name="cel" id="cel">
+                        <label for="unidade">Unidade de interesse </label>
+                        <select name="unidade" id="unidade">
+                            <option value="moinhos">Moinhos</option>
+                            <option value="zs">Zona Sul</option>
+                        </select>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p>Happy Code - POA/CNPJ XX.XXX.XXX/0001-XX</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
+</body>
+</html>

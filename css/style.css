@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Benne', serif;
+  color: black;
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+header {
+  height: 100px;
+  background-color: #62a87c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  height: 100px;
+  width: auto;
+}
+
+header nav {
+  width: 40%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+header #search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+}
+
+header #search ion-icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+header #search input {
+  border-radius: 4px;
+}
+
+main #principal .swiper-container {
+  height: 500px;
+}
+
+main #principal .swiper-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #principal article {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+footer #logo-Inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #logo-Inf img {
+  height: 150px;
+  width: auto;
+}
+
+footer #logo-Inf hr {
+  width: 100%;
+  border: 1px solid;
+}
+
+footer #container-footer {
+  padding: 20px;
+  width: 100%;
+}
+
+footer #container-footer h2 {
+  font-size: 30px;
+}
+
+footer #container-footer #menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer #container-footer #menu-footer #menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #container-footer #menu-footer #menu-links #email {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+footer #container-footer #menu-footer #menu-links #email ion-icon {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #container-footer #menu-footer #menu-links #email h3, footer #container-footer #menu-footer #menu-links #email span {
+  margin-left: 15px;
+}
+
+footer #container-footer #menu-footer #menu-links #email .link {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #container-footer #menu-footer #menu-links #email .link ion-icon {
+  font-size: 20px;
+  color: #62a87c;
+  margin-right: 5px;
+}
+
+footer #container-footer #menu-footer #form {
+  background-color: #62a87c;
+  border-radius: 4px;
+  width: 35%;
+  text-align: center;
+}
+
+footer #container-footer #menu-footer #form h3 {
+  color: #fff;
+}
+
+footer #container-footer #menu-footer #form form {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+}
+
+footer #container-footer #menu-footer #form form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fff;
+}
+
+footer #container-footer #menu-footer #form form input, footer #container-footer #menu-footer #form form select {
+  width: 50%;
+  border-radius: 4px;
+}
+
+footer #container-footer #menu-footer #form form input:last-of-type, footer #container-footer #menu-footer #form form select:last-of-type {
+  width: 25%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
