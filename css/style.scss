@@ -127,7 +127,6 @@ main{
 footer{
     #logo-Inf{
         display: flex;
-        justify-content: center;
         align-items: center;
     
         img{
@@ -151,40 +150,33 @@ footer{
 
         #menu-footer{
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
 
             #menu-links{
                 display: flex;
-                width: 60%;
-                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                font-size: 20px;
+                padding:  20px;
 
-                #email{
-                    font-size: 20px;
-                    padding: 0 20px;
-
-                    ion-icon{
-                        font-size: 40px;
-                        display: flex;
-                        align-items: center;
-                    }
-
-                    h3, span{
-                        margin-left: 15px;
-                    }
-
-                    .link{
-                        margin-left: 15px;
-                        display: flex;
-    
-                        ion-icon{
-                            font-size: 20px;
-                            color: #62a87c;
-                            margin-right: 5px;
-                        }
-                    }
+                ion-icon{
+                    font-size: 40px;
                 }
 
-                
+                h3, span{
+                    margin-left: 15px;
+                }
+
+                .link{
+                    margin-left: 15px;
+                    
+                    ion-icon{
+                        font-size: 20px;
+                        color: #62a87c;
+                        margin-right: 5px;
+                    }
+                }  
             }
 
             #form{
@@ -198,14 +190,11 @@ footer{
                 }
 
                 form{
-                    display: block;
                     padding: 10px;
                     text-align: justify;
 
-
                     label{
                         display: flex;
-                        flex-direction: row;
                         color: #fff;
                         
                     }
@@ -221,7 +210,6 @@ footer{
                     }
                 }
             }
-            
         }
     }
 
