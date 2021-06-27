@@ -93,6 +93,8 @@ main #principal .swiper-container .swiper-slide img {
 main #metodologia {
   text-align: center;
   background-color: #8ee3ef;
+  margin: 20px;
+  border-radius: 4px;
 }
 
 main #metodologia h2 {
