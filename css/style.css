@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Benne', serif;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: black;
+  color: #473080;
 }
 
 header #search {
@@ -133,6 +133,44 @@ main #metodologia #metodologia-bloco .blocos .titulo h3 {
 
 main #metodologia #metodologia-bloco .blocos .texto {
   background-color: #fff;
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+main #metodologia #metodologia-bloco .blocos .texto ul {
+  list-style: circle;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#mais {
+  text-align: center;
+  padding: 20px;
+}
+
+#mais h2 {
+  font-size: 12px;
+}
+
+#mais h1, #mais h2, #mais a {
+  padding: 10px;
+}
+
+#mais a {
+  text-decoration: none;
+  border: 2px solid #62a87c;
+  border-radius: 10px;
+  color: #62a87c;
+  font-weight: bold;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#mais a:hover {
+  background-color: #62a87c;
+  color: #fff;
 }
 
 footer #logo-Inf {
@@ -194,7 +232,12 @@ footer #container-footer #menu-footer #menu-links ion-icon {
   font-size: 40px;
 }
 
-footer #container-footer #menu-footer #menu-links h3, footer #container-footer #menu-footer #menu-links span {
+footer #container-footer #menu-footer #menu-links h3 {
+  margin-left: 15px;
+}
+
+footer #container-footer #menu-footer #menu-links p {
+  font-size: 15px;
   margin-left: 15px;
 }
 
@@ -235,6 +278,8 @@ footer #container-footer #menu-footer #form form input, footer #container-footer
   width: 50%;
   border-radius: 4px;
   font-size: 12px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 footer #container-footer #menu-footer #form form input:last-of-type, footer #container-footer #menu-footer #form form select:last-of-type {

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -17,11 +18,10 @@
         <img src="img/logo.png" alt="Logo da empresa">
         <nav>
             <ul>
-                <li><a href="#">menu</a></li>
-                <li><a href="#">menu</a></li>
-                <li><a href="#">menu</a></li>
-                <li><a href="#">menu</a></li>
-                <li><a href="#">menu</a></li>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">equipe</a></li>
+                <li><a href="#">cursos</a></li>
+                <li><a href="#">projetos - alunos</a></li>
             </ul>
         </nav>
         <div id="search">
@@ -48,23 +48,29 @@
             <div id="metodologia-bloco">
                 <div class="blocos">
                     <div class="titulo">
-                        <img src="img/Metodologia/Missão.png" alt="Ícone indicando a missão">
-                        <h3>Missão</h3>
+                        <img src="img/Metodologia/Descoberta.png" alt="Ícone indicando a descoberta">
+                        <h3>Descoberta</h3>
                     </div>
                     <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse at similique exercitationem quidem assumenda possimus dolore impedit distinctio, 
-                            nobis provident tempore nam quos dicta veritatis enim, ut, quam accusamus iure!</p>
+                        <ul>
+                            <li>Introdução ao conteúdo</li>
+                            <li>Conhecimentos técnicos</li>
+                            <li>Pesquisas e leituras sobre o assunto</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="blocos">
                     <div class="titulo">
-                        <img src="img/Metodologia/Descoberta.png" alt="Ícone indicando a descoberta">
-                        <h3>Descoberta</h3>
+                        <img src="img/Metodologia/Missão.png" alt="Ícone indicando a missão">
+                        <h3>Missão</h3>
                     </div>
                     <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse at similique exercitationem quidem assumenda possimus dolore impedit distinctio, 
-                            nobis provident tempore nam quos dicta veritatis enim, ut, quam accusamus iure!</p>
+                        <ul>
+                            <li>Contexto de aprendizagem e problema a ser solucionado</li>
+                            <li>Temas extraídos da ONU</li>
+                            <li>Ferramentas auxiliares – Game Thinking</li>
+                        </ul>
                     </div>
                 </div>
                 
@@ -74,13 +80,23 @@
                         <h3>Construção</h3>
                     </div>
                     <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse at similique exercitationem quidem assumenda possimus dolore impedit distinctio, 
-                            nobis provident tempore nam quos dicta veritatis enim, ut, quam accusamus iure!</p>
+                        <ul>
+                            <li>Estímulo ao empreendedorismo com base no Lean Startup</li>
+                            <li>Protótipos de baixa e alta fidelidade - MVP</li>
+                            <li>User experience e user Interface</li>
+                            <li>PITCH</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <section id="mais">
+        <h1>VENHA PARA A HAPPY CODE!</h1>
+        <h2>AQUI O FUTURO DO SEU FILHO BRILHA MAIS.</h2>
+        <a href="#">SAIBA MAIS</a>
+    </section>
 
     <footer>
         <div id="logo-Inf">
@@ -95,7 +111,7 @@
             
                         <h3>Contato</h3>
                         <ion-icon name="mail-outline"></ion-icon>
-                        <span>happycode@happycode.com.br</span>
+                        <p>happycode@happycode.com.br</p>
                         <div class="link">
                             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
                             <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
@@ -116,7 +132,7 @@
                         <input type="email" name="email" id="email">
                         <label for="unidade">Unidade de interesse </label>
                         <select name="unidade" id="unidade">
-                            <option selected value="">Escolha a unidade</option>
+                            <option selected value></option>
                             <option value="moinhos">Moinhos</option>
                             <option value="zs">Zona Sul</option>
                         </select>

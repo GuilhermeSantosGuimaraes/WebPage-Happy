@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Benne', serif;
-    color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -41,7 +41,7 @@ header{
                     color: #fff;
 
                     &:hover{
-                        color: black;
+                        color: #473080;
                     }
                 }
             }
@@ -116,6 +116,16 @@ main{
 
                 .texto{
                     background-color: #fff;
+                    height: 100%;
+                    padding: 20px;
+                    text-align: left;
+                    text-transform: uppercase;
+
+                    ul{
+                        list-style: circle;
+                        font-weight: bold;
+                        padding: 10px;
+                    } 
                 }
             }
         }
@@ -123,6 +133,32 @@ main{
 
 }
 
+#mais{
+    text-align: center;
+    padding: 20px;
+
+    h2{
+        font-size: 12px;
+    }
+
+    h1, h2, a{
+        padding: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        border: 2px solid #62a87c;
+        border-radius: 10px;
+        color: #62a87c;
+        font-weight: bold;
+        transition: 0.2s;
+
+        &:hover{
+            background-color: #62a87c;
+            color: #fff;
+        }
+    }
+}
 
 footer{
     #logo-Inf{
@@ -164,7 +200,12 @@ footer{
                     font-size: 40px;
                 }
 
-                h3, span{
+                h3{
+                    margin-left: 15px;
+                }
+
+                p{
+                    font-size: 15px;
                     margin-left: 15px;
                 }
 
@@ -196,13 +237,15 @@ footer{
                     label{
                         display: flex;
                         color: #fff;
-                        
+
                     }
 
                     input, select{
                         width: 50%;
                         border-radius: 4px;
                         font-size: 12px;
+                        margin-bottom: 10px;
+                        padding: 5px;
 
                         &:last-of-type{
                             width: 25%;
