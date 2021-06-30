@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=equipe.css.map */
+main {
+  text-align: center;
+}
+
+main #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #container .profs {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 10px;
+}
+/*# sourceMappingURL=equipe.css.map */
