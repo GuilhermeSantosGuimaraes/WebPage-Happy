@@ -67,20 +67,21 @@ main #metodologia #metodologia-bloco .blocos .texto ul {
   padding: 10px;
 }
 
-#mais {
+main #mais {
   text-align: center;
   padding: 20px;
 }
 
-#mais h2 {
+main #mais h2 {
   font-size: 12px;
 }
 
-#mais h1, #mais h2, #mais a {
+main #mais h1, #mais h2, #mais a {
   padding: 10px;
+  margin-bottom: 10px;
 }
 
-#mais a {
+main #mais a {
   text-decoration: none;
   border: 2px solid #62a87c;
   border-radius: 10px;
@@ -90,7 +91,7 @@ main #metodologia #metodologia-bloco .blocos .texto ul {
   transition: 0.2s;
 }
 
-#mais a:hover {
+main #mais a:hover {
   background-color: #62a87c;
   color: #fff;
 }

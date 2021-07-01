@@ -1,0 +1,40 @@
+main {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+main .cursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+main .cursos figure {
+  text-align: center;
+}
+
+main .cursos figure img {
+  padding: 10px;
+  width: 200px;
+  border: 5px solid #62a87c;
+  border-radius: 10px;
+}
+
+main .cursos p {
+  width: 40%;
+}
+/*# sourceMappingURL=cursos.css.map */

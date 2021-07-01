@@ -112,7 +112,7 @@ footer #container-footer #menu-footer {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
 }
 
 footer #container-footer #menu-footer #menu-links {
@@ -133,27 +133,15 @@ footer #container-footer #menu-footer #menu-links {
   padding: 20px;
 }
 
-footer #container-footer #menu-footer #menu-links ion-icon {
-  font-size: 40px;
-}
-
-footer #container-footer #menu-footer #menu-links h3 {
-  margin-left: 15px;
-}
-
 footer #container-footer #menu-footer #menu-links p {
   font-size: 15px;
-  margin-left: 15px;
 }
 
-footer #container-footer #menu-footer #menu-links .link {
-  margin-left: 15px;
-}
+
 
 footer #container-footer #menu-footer #menu-links .link ion-icon {
   font-size: 20px;
   color: #62a87c;
-  margin-right: 5px;
 }
 
 footer #container-footer #menu-footer #form {
