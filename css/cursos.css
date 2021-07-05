@@ -1,25 +1,14 @@
 main {
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
 }
 
 main .cursos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 40%;
 }
 
@@ -37,4 +26,3 @@ main .cursos figure img {
 main .cursos p {
   width: 40%;
 }
-/*# sourceMappingURL=cursos.css.map */
